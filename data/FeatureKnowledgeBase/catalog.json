@@ -30,12 +30,6 @@
       "final": "postgresql/final.json",
       "review": "postgresql/review.json",
       "summary": "postgresql/summary.json"
-    },
-    {
-      "dbms": "sqlite",
-      "final": "sqlite/final.json",
-      "review": "sqlite/review.json",
-      "summary": "sqlite/summary.json"
     }
   ]
 }
