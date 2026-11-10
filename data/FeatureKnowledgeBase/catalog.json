@@ -1,0 +1,41 @@
+{
+  "schema_version": "dialectranger-feature-catalog/v1",
+  "databases": [
+    {
+      "dbms": "derby",
+      "final": "derby/final.json",
+      "review": "derby/review.json",
+      "summary": "derby/summary.json"
+    },
+    {
+      "dbms": "duckdb",
+      "final": "duckdb/final.json",
+      "review": "duckdb/review.json",
+      "summary": "duckdb/summary.json"
+    },
+    {
+      "dbms": "monetdb",
+      "final": "monetdb/final.json",
+      "review": "monetdb/review.json",
+      "summary": "monetdb/summary.json"
+    },
+    {
+      "dbms": "mysql",
+      "final": "mysql/final.json",
+      "review": "mysql/review.json",
+      "summary": "mysql/summary.json"
+    },
+    {
+      "dbms": "postgresql",
+      "final": "postgresql/final.json",
+      "review": "postgresql/review.json",
+      "summary": "postgresql/summary.json"
+    },
+    {
+      "dbms": "sqlite",
+      "final": "sqlite/final.json",
+      "review": "sqlite/review.json",
+      "summary": "sqlite/summary.json"
+    }
+  ]
+}

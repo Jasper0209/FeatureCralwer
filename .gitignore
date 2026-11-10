@@ -1,0 +1,19 @@
+# Local execution artifacts and credentials; public KB and web assets stay tracked.
+.runtime/
+output/
+reports/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.zip

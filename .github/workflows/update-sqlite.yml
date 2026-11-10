@@ -1,0 +1,81 @@
+name: Update SQLite Feature KB
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 02:17 Asia/Shanghai (UTC+8).
+    - cron: '17 18 * * 6'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sqlite-feature-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      FEATURE_CRAWLER_HTTP_TRUST_ENV: '0'
+      PYTHONUNBUFFERED: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install crawler and test dependencies
+        run: python -m pip install -r script/FeatureKnowledgeBase/requirements.txt pytest
+      - name: Check adapter and publication guard (offline)
+        working-directory: script/FeatureKnowledgeBase
+        run: >-
+          python -m pytest tests/test_dialectranger_integration.py tests/test_ci_update.py
+          tests/test_profile_identity_type_precedence.py tests/test_current_pipeline_smoke.py
+          tests/test_explicit_document_input.py tests/test_minimal_unified_build_integration.py
+          tests/test_release_preflight.py -q
+      - name: Crawl official SQLite docs and validate before publication
+        run: python script/FeatureKnowledgeBase/ci_update.py --dbms sqlite
+      - name: Create or update data pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch=codex/sqlite-feature-update
+          git add data/FeatureKnowledgeBase/sqlite data/FeatureKnowledgeBase/catalog.json web/js/data.js web/index.html
+          if git diff --cached --quiet; then
+            echo 'No published data changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git checkout -B "$branch"
+          git commit -m 'data: refresh SQLite official feature knowledge'
+          git push --force-with-lease origin "$branch"
+          existing=$(gh pr list --head "$branch" --base "$BASE_BRANCH" --state open --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh pr create --base "$BASE_BRANCH" --head "$branch" \
+              --title 'Update SQLite Feature KB' \
+              --body 'Scheduled official-document crawl using the deterministic provider. Fetch completeness, zero external model calls, lineage, projection counts and baseline count conservation were checked. Review data changes, then merge to deploy the website. Detailed validation is in the workflow artifacts.'
+          else
+            echo "Updated existing PR #$existing"
+          fi
+      - name: Retain diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sqlite-update-diagnostics
+          retention-days: 7
+          if-no-files-found: ignore
+          path: |
+            script/FeatureKnowledgeBase/.runtime/ci/update_validation.json
+            script/FeatureKnowledgeBase/.runtime/ci/projection.json
+            script/FeatureKnowledgeBase/.runtime/ci/**/candidate/summary.json
+            script/FeatureKnowledgeBase/.runtime/runs/**/failure_traceback.txt
