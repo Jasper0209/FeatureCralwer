@@ -16792,9 +16792,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -18104,9 +18104,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 242,
+            "end": 182,
             "start": 0,
-            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -18185,9 +18185,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -18200,188 +18200,6 @@
         "!="
       ],
       "supporting_evidence": []
-    }
-  },
-  {
-    "canonical_identity": {
-      "canonical_name": "&",
-      "dbms": "sqlite",
-      "discriminator": "DEFAULT",
-      "feature_type": "operator",
-      "key": "sqlite|operator|&|default"
-    },
-    "canonical_name": "&",
-    "dbms": "sqlite",
-    "doc_version": "current",
-    "feature_id": "canonical:6afb68462675c0a00a5e1bd6",
-    "feature_type": "operator",
-    "field_validation_status": "PASS",
-    "name": "&",
-    "promotion_eligibility": "promotion_ready",
-    "provenance": {
-      "admission_id": "admission:d94d866abda7ccd4eb688a36",
-      "evidence_ids": [
-        "evidence:04c15bfbf0f5af0f03ea603a",
-        "evidence:2e791bc206d3e2bcca1e54b6",
-        "evidence:581ccf41ee375fa468265167",
-        "evidence:60993b72de4bbdd69bb032ed",
-        "evidence:820104ed0e5de788dde58446",
-        "evidence:c6b1c90bb253b0e87ea9d5a5",
-        "evidence:c963f7bc0fad5bacb42c7cd0"
-      ],
-      "identity_unit_id": "identity_unit:3cb0491561b2ab4ce9825e40",
-      "producer_stage": "generic_canonical_projection",
-      "producer_version": "generic-unified-contract/v1",
-      "semantic_record_id": "semantic_record:1ba53f881dad5089dbe63005"
-    },
-    "quality": {
-      "conflict_state": "clear",
-      "fields_missing": [
-        "description",
-        "formal_syntax",
-        "official_examples",
-        "notes",
-        "parameters",
-        "return_type"
-      ],
-      "fields_populated": [],
-      "ownership_ambiguity": false,
-      "semantic_evidence_resolved": true,
-      "structural_evidence_resolved": true
-    },
-    "schema_version": "canonical-feature-kb-projection/v1",
-    "semantic_execution_state": "STRUCTURAL_ONLY",
-    "semantic_status": "STRUCTURAL_ONLY",
-    "semantics": {
-      "aliases": [],
-      "constraints": [],
-      "description": [],
-      "examples": [],
-      "parameters": [],
-      "return_type": [],
-      "syntax": []
-    },
-    "structural": {
-      "aliases": [],
-      "attributes": {
-        "field_reviews": [],
-        "identity_unit_id": "identity_unit:3cb0491561b2ab4ce9825e40",
-        "quarantined_fields": [],
-        "sense_id": "sense:b02bfcac7892946ac1daa181"
-      },
-      "canonical_name": "&",
-      "name": "&",
-      "primary_evidence": {
-        "block_id": "block:e05446090ecfd5334175265d",
-        "block_type": "TABLE_ROW",
-        "evidence_role": "IDENTITY",
-        "evidence_span": {
-          "end": 396,
-          "start": 0,
-          "text": "data To insert a directory into the archive, this field must be set to \n       NULL. In this case if a value was explicitly specified for the \"mode\"\n       column, then it must be consistent with a directory (i.e. it must be\n       true that (mode & 0040000)=0040000). Otherwise, the value inserted into this field is the file contents\n       for a regular file, or the target of a symbolic link."
-        },
-        "page_hash": "8011462bb2871ecb084f80d8ab085d402b86bfc76b4136173229b6d2e72290de",
-        "page_id": "page:8e4084ffb46f660e3eeaa3b7",
-        "section_heading": "3. Using Zipfile / 3.2. Virtual Table Interface (read/write access) / 3.2.2. Adding Entries to a Zip Archive",
-        "source_anchor": "https://www.sqlite.org/zipfile.html",
-        "url": "https://www.sqlite.org/zipfile.html"
-      },
-      "return_types": [],
-      "signatures": [
-        "&"
-      ],
-      "supporting_evidence": [
-        {
-          "block_id": "block:a921f886cc2d7d603d8bf4db",
-          "block_type": "TABLE_ROW",
-          "evidence_role": "SUPPORTING",
-          "evidence_span": {
-            "end": 56,
-            "start": 0,
-            "text": "~ &lsqb;expr&rsqb; + &lsqb;expr&rsqb; - &lsqb;expr&rsqb;"
-          },
-          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
-          "page_id": "page:b063b5e6450632716ad37990",
-          "section_heading": "2. Operators, and Parse-Affecting Attributes",
-          "source_anchor": "https://www.sqlite.org/lang_expr.html",
-          "url": "https://www.sqlite.org/lang_expr.html"
-        },
-        {
-          "block_id": "block:ddc8f57e45dbf9db0a403cd9",
-          "block_type": "TABLE_ROW",
-          "evidence_role": "SUPPORTING",
-          "evidence_span": {
-            "end": 53,
-            "start": 0,
-            "text": "&lsqb;expr&rsqb; COLLATE &lpar;collation-name&rpar; 3"
-          },
-          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
-          "page_id": "page:b063b5e6450632716ad37990",
-          "section_heading": "2. Operators, and Parse-Affecting Attributes",
-          "source_anchor": "https://www.sqlite.org/lang_expr.html",
-          "url": "https://www.sqlite.org/lang_expr.html"
-        },
-        {
-          "block_id": "block:41ba293f881bacf48c80cdcf",
-          "block_type": "TABLE_ROW",
-          "evidence_role": "SUPPORTING",
-          "evidence_span": {
-            "end": 13,
-            "start": 0,
-            "text": "&  |   <<  >>"
-          },
-          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
-          "page_id": "page:b063b5e6450632716ad37990",
-          "section_heading": "2. Operators, and Parse-Affecting Attributes",
-          "source_anchor": "https://www.sqlite.org/lang_expr.html",
-          "url": "https://www.sqlite.org/lang_expr.html"
-        },
-        {
-          "block_id": "block:82399c9deb163dadf97bd04a",
-          "block_type": "TABLE_ROW",
-          "evidence_role": "SUPPORTING",
-          "evidence_span": {
-            "end": 59,
-            "start": 0,
-            "text": "&lsqb;expr&rsqb; ESCAPE &lsqb;escape-character-expr&rsqb; 4"
-          },
-          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
-          "page_id": "page:b063b5e6450632716ad37990",
-          "section_heading": "2. Operators, and Parse-Affecting Attributes",
-          "source_anchor": "https://www.sqlite.org/lang_expr.html",
-          "url": "https://www.sqlite.org/lang_expr.html"
-        },
-        {
-          "block_id": "block:4d2c5a085215bf224e93e8d8",
-          "block_type": "TABLE_ROW",
-          "evidence_role": "SUPPORTING",
-          "evidence_span": {
-            "end": 242,
-            "start": 0,
-            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
-          },
-          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
-          "page_id": "page:b063b5e6450632716ad37990",
-          "section_heading": "2. Operators, and Parse-Affecting Attributes",
-          "source_anchor": "https://www.sqlite.org/lang_expr.html",
-          "url": "https://www.sqlite.org/lang_expr.html"
-        },
-        {
-          "block_id": "block:b78c01b85f7df9d461e4b771",
-          "block_type": "TABLE_ROW",
-          "evidence_role": "SUPPORTING",
-          "evidence_span": {
-            "end": 20,
-            "start": 0,
-            "text": "NOT &lsqb;expr&rsqb;"
-          },
-          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
-          "page_id": "page:b063b5e6450632716ad37990",
-          "section_heading": "2. Operators, and Parse-Affecting Attributes",
-          "source_anchor": "https://www.sqlite.org/lang_expr.html",
-          "url": "https://www.sqlite.org/lang_expr.html"
-        }
-      ]
     }
   },
   {
@@ -19097,9 +18915,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 242,
+            "end": 182,
             "start": 0,
-            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -25543,9 +25361,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 56,
+            "end": 26,
             "start": 0,
-            "text": "~ &lsqb;expr&rsqb; + &lsqb;expr&rsqb; - &lsqb;expr&rsqb;"
+            "text": "~ [expr] + [expr] - [expr]"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -25729,9 +25547,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 59,
+          "end": 39,
           "start": 0,
-          "text": "&lsqb;expr&rsqb; ESCAPE &lsqb;escape-character-expr&rsqb; 4"
+          "text": "[expr] ESCAPE [escape-character-expr] 4"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -26348,9 +26166,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -27822,6 +27640,108 @@
   },
   {
     "canonical_identity": {
+      "canonical_name": "&",
+      "dbms": "sqlite",
+      "discriminator": "DEFAULT",
+      "feature_type": "operator",
+      "key": "sqlite|operator|&|default"
+    },
+    "canonical_name": "&",
+    "dbms": "sqlite",
+    "doc_version": "current",
+    "feature_id": "canonical:525cb5270cf5af44b31dfdab",
+    "feature_type": "operator",
+    "field_validation_status": "PASS",
+    "name": "&",
+    "promotion_eligibility": "promotion_ready",
+    "provenance": {
+      "admission_id": "admission:397db65c963fe6efe74c55b6",
+      "evidence_ids": [
+        "evidence:1aae9a8c226c55d14970a81b",
+        "evidence:503f6ef0c298a30850996fd4"
+      ],
+      "identity_unit_id": "identity_unit:566174fc50fe7b9e3b9d8cde",
+      "producer_stage": "generic_canonical_projection",
+      "producer_version": "generic-unified-contract/v1",
+      "semantic_record_id": "semantic_record:84f39e32a17c307999649152"
+    },
+    "quality": {
+      "conflict_state": "clear",
+      "fields_missing": [
+        "description",
+        "formal_syntax",
+        "official_examples",
+        "notes",
+        "parameters",
+        "return_type"
+      ],
+      "fields_populated": [],
+      "ownership_ambiguity": false,
+      "semantic_evidence_resolved": true,
+      "structural_evidence_resolved": true
+    },
+    "schema_version": "canonical-feature-kb-projection/v1",
+    "semantic_execution_state": "STRUCTURAL_ONLY",
+    "semantic_status": "STRUCTURAL_ONLY",
+    "semantics": {
+      "aliases": [],
+      "constraints": [],
+      "description": [],
+      "examples": [],
+      "parameters": [],
+      "return_type": [],
+      "syntax": []
+    },
+    "structural": {
+      "aliases": [],
+      "attributes": {
+        "field_reviews": [],
+        "identity_unit_id": "identity_unit:566174fc50fe7b9e3b9d8cde",
+        "quarantined_fields": [],
+        "sense_id": "sense:b02bfcac7892946ac1daa181"
+      },
+      "canonical_name": "&",
+      "name": "&",
+      "primary_evidence": {
+        "block_id": "block:e05446090ecfd5334175265d",
+        "block_type": "TABLE_ROW",
+        "evidence_role": "IDENTITY",
+        "evidence_span": {
+          "end": 396,
+          "start": 0,
+          "text": "data To insert a directory into the archive, this field must be set to \n       NULL. In this case if a value was explicitly specified for the \"mode\"\n       column, then it must be consistent with a directory (i.e. it must be\n       true that (mode & 0040000)=0040000). Otherwise, the value inserted into this field is the file contents\n       for a regular file, or the target of a symbolic link."
+        },
+        "page_hash": "8011462bb2871ecb084f80d8ab085d402b86bfc76b4136173229b6d2e72290de",
+        "page_id": "page:8e4084ffb46f660e3eeaa3b7",
+        "section_heading": "3. Using Zipfile / 3.2. Virtual Table Interface (read/write access) / 3.2.2. Adding Entries to a Zip Archive",
+        "source_anchor": "https://www.sqlite.org/zipfile.html",
+        "url": "https://www.sqlite.org/zipfile.html"
+      },
+      "return_types": [],
+      "signatures": [
+        "&"
+      ],
+      "supporting_evidence": [
+        {
+          "block_id": "block:41ba293f881bacf48c80cdcf",
+          "block_type": "TABLE_ROW",
+          "evidence_role": "SUPPORTING",
+          "evidence_span": {
+            "end": 13,
+            "start": 0,
+            "text": "&  |   <<  >>"
+          },
+          "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
+          "page_id": "page:b063b5e6450632716ad37990",
+          "section_heading": "2. Operators, and Parse-Affecting Attributes",
+          "source_anchor": "https://www.sqlite.org/lang_expr.html",
+          "url": "https://www.sqlite.org/lang_expr.html"
+        }
+      ]
+    }
+  },
+  {
+    "canonical_identity": {
       "canonical_name": "~",
       "dbms": "sqlite",
       "discriminator": "DEFAULT",
@@ -27888,9 +27808,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 56,
+          "end": 26,
           "start": 0,
-          "text": "~ &lsqb;expr&rsqb; + &lsqb;expr&rsqb; - &lsqb;expr&rsqb;"
+          "text": "~ [expr] + [expr] - [expr]"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -29661,9 +29581,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 242,
+            "end": 182,
             "start": 0,
-            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -34341,9 +34261,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 242,
+            "end": 182,
             "start": 0,
-            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -35370,9 +35290,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -41843,9 +41763,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -42010,9 +41930,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -43456,9 +43376,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -50879,9 +50799,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -58706,9 +58626,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -59272,9 +59192,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 242,
+            "end": 182,
             "start": 0,
-            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+            "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -61215,9 +61135,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -62565,9 +62485,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 56,
+            "end": 26,
             "start": 0,
-            "text": "~ &lsqb;expr&rsqb; + &lsqb;expr&rsqb; - &lsqb;expr&rsqb;"
+            "text": "~ [expr] + [expr] - [expr]"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -62580,9 +62500,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 53,
+            "end": 33,
             "start": 0,
-            "text": "&lsqb;expr&rsqb; COLLATE &lpar;collation-name&rpar; 3"
+            "text": "[expr] COLLATE (collation-name) 3"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -62610,9 +62530,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 59,
+            "end": 39,
             "start": 0,
-            "text": "&lsqb;expr&rsqb; ESCAPE &lsqb;escape-character-expr&rsqb; 4"
+            "text": "[expr] ESCAPE [escape-character-expr] 4"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
@@ -63201,9 +63121,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -82557,9 +82477,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 20,
+          "end": 10,
           "start": 0,
-          "text": "NOT &lsqb;expr&rsqb;"
+          "text": "NOT [expr]"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -85737,9 +85657,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -88345,9 +88265,9 @@
         "block_type": "TABLE_ROW",
         "evidence_role": "IDENTITY",
         "evidence_span": {
-          "end": 242,
+          "end": 182,
           "start": 0,
-          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM &lsqb;expr&rsqb; BETWEEN 5 &lsqb;expr&rsqb; AND &lsqb;expr&rsqb; IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 &lsqb;expr&rsqb; ISNULL &lsqb;expr&rsqb; NOTNULL &lsqb;expr&rsqb; NOT NULL"
+          "text": "=  ==  <>  !=  IS   IS NOT IS DISTINCT FROM   IS NOT DISTINCT FROM [expr] BETWEEN 5 [expr] AND [expr] IN 5 MATCH 5 LIKE 5 REGEXP 5 GLOB 5 [expr] ISNULL [expr] NOTNULL [expr] NOT NULL"
         },
         "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
         "page_id": "page:b063b5e6450632716ad37990",
@@ -92547,9 +92467,9 @@
           "block_type": "TABLE_ROW",
           "evidence_role": "SUPPORTING",
           "evidence_span": {
-            "end": 53,
+            "end": 33,
             "start": 0,
-            "text": "&lsqb;expr&rsqb; COLLATE &lpar;collation-name&rpar; 3"
+            "text": "[expr] COLLATE (collation-name) 3"
           },
           "page_hash": "a618cf34414eaf5390a5b7814b8b720a08daff6a64fdcf7b3a02bf7b474a65a4",
           "page_id": "page:b063b5e6450632716ad37990",
