@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  actions: write
 
 concurrency:
   group: sqlite-feature-update
@@ -41,32 +41,28 @@ jobs:
           tests/test_release_preflight.py -q
       - name: Crawl official SQLite docs and validate before publication
         run: python script/FeatureKnowledgeBase/ci_update.py --dbms sqlite
-      - name: Create or update data pull request
+      - name: Publish validated data and request website deployment
         env:
           GH_TOKEN: ${{ github.token }}
           BASE_BRANCH: ${{ github.event.repository.default_branch }}
         shell: bash
         run: |
           set -euo pipefail
-          branch=codex/sqlite-feature-update
           git add data/FeatureKnowledgeBase/sqlite data/FeatureKnowledgeBase/catalog.json web/js/data.js web/index.html
           if git diff --cached --quiet; then
             echo 'No published data changes.'
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git checkout -B "$branch"
-          git commit -m 'data: refresh SQLite official feature knowledge'
-          git push --force-with-lease origin "$branch"
-          existing=$(gh pr list --head "$branch" --base "$BASE_BRANCH" --state open --json number --jq '.[0].number // empty')
-          if [ -z "$existing" ]; then
-            gh pr create --base "$BASE_BRANCH" --head "$branch" \
-              --title 'Update SQLite Feature KB' \
-              --body 'Scheduled official-document crawl using the deterministic provider. Fetch completeness, zero external model calls, lineage, projection counts and baseline count conservation were checked. Review data changes, then merge to deploy the website. Detailed validation is in the workflow artifacts.'
           else
-            echo "Updated existing PR #$existing"
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'data: refresh SQLite official feature knowledge'
+            # Normal push only: concurrent main changes or branch protection
+            # reject the update rather than being overwritten/bypassed.
+            git push origin "HEAD:$BASE_BRANCH"
           fi
+          # GITHUB_TOKEN pushes do not trigger the other workflow's push event.
+          # Dispatch explicitly, also allowing a retry after a deployment failure
+          # when the crawler produces unchanged data on a subsequent run.
+          gh workflow run deploy-pages.yml --ref "$BASE_BRANCH"
       - name: Retain diagnostics
         if: always()
         uses: actions/upload-artifact@v4
