@@ -120,7 +120,7 @@ def export_web(data_root=None,web_data=None):
         'total_web_review':len(reviews),'duplicate_final_ids':0}
     return report
 
-def publish_dataset(db,public):
+def publish_dataset(db,public, *, export=True):
     public=Path(public);final=read(public/'final.json');review=read(public/'review.json');summary=read(public/'summary.json')
     if summary['dbms']!=db or len(final)!=summary['final_count'] or len(review)!=summary['review_count']:
         raise ValueError('Published dataset counts/DB mismatch')
@@ -136,4 +136,4 @@ def publish_dataset(db,public):
     entry={'dbms':db,'final':db+'/final.json','review':db+'/review.json','summary':db+'/summary.json'}
     catalog['databases']=sorted([e for e in catalog['databases']if e['dbms']!=db]+[entry],key=lambda e:e['dbms'])
     write(DATA_ROOT/'catalog.json',catalog)
-    return export_web()
+    return export_web() if export else {'dbms':db,'final_count':len(final),'review_count':len(review)}

@@ -9,6 +9,7 @@ import re
 import runpy
 import subprocess
 import sys
+import shutil
 from pathlib import Path
 from urllib.parse import urldefrag
 from uuid import uuid4
@@ -91,6 +92,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--dbms', default='sqlite')
     parser.add_argument('--worker', type=Path, help=argparse.SUPPRESS)
+    parser.add_argument('--candidate-only', action='store_true', help='Validate and stage artifacts without publishing')
+    parser.add_argument('--artifact-dir', type=Path)
     args = parser.parse_args()
     dbms = args.dbms.lower()
     if not re.fullmatch(r'[a-z][a-z0-9_-]*', dbms):
@@ -108,6 +111,14 @@ def main():
     print(json.dumps(audit, ensure_ascii=False, indent=2))
     if audit['status'] != 'PASS':
         return 1
+    if args.candidate_only:
+        if args.artifact_dir is None:
+            parser.error('--candidate-only requires --artifact-dir')
+        args.artifact_dir.mkdir(parents=True, exist_ok=True)
+        for name in ('final.json','review.json','summary.json'):
+            shutil.copyfile(str(candidate/name),str(args.artifact_dir/name))
+        write(args.artifact_dir/'validation.json',audit)
+        return 0
     projection = publish_dataset(dbms, candidate)
     write(TOOL_ROOT / '.runtime/ci/projection.json', projection)
     return 0
