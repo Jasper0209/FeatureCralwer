@@ -36,7 +36,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -53,7 +53,7 @@
           "candidate:c6d2f17a12aca504a23cafd0"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "6c63079dca19235c4096fc08e3e013d5f0d99cc584f81719fa696b2057a1f722",
+        "decision_fingerprint": "8c90ae941042ae65759666f1c8b4f90556b4c16ef7e08232141ebeb67f4a7e70",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:2455f5bc1da4eded80eab1b2",
         "independent_resolution_verified": false,
@@ -117,12 +117,12 @@
           "identity_occurrence:329efe555f05c05e2cd52471"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "29a5d606992baab9323a59a4846528ec048a4f618dec03b23616caa3b7368dd1",
+        "target_source_record_sha256": "076e1970438df6d3f8e86da15088a21790b3f349c66952ef81594949c800f212",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:2455f5bc1da4eded80eab1b2",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -133,7 +133,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "78b15205d64923d5ca640993e730ab164ad0aef0549103db1449b6f991bf8e2a"
+          "sha256": "dfefc63d233cf3f15155a73ee35b3d7276df12871f13e59617a377def5ffd67c"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -170,7 +170,7 @@
     "publication": {
       "feature_id": "canonical:557e07e0030c8ff8242701a4",
       "identity_unit_id": "identity_unit:2455f5bc1da4eded80eab1b2",
-      "integrity_decision_fingerprint": "6c63079dca19235c4096fc08e3e013d5f0d99cc584f81719fa696b2057a1f722",
+      "integrity_decision_fingerprint": "8c90ae941042ae65759666f1c8b4f90556b4c16ef7e08232141ebeb67f4a7e70",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -513,7 +513,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
         "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
         "page_id": "page:01c4951a370f37b648ffd39c",
         "parent_ids": [
@@ -530,7 +530,7 @@
           "candidate:65f9357bb2a263fc6e74e21f"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "792b513ea086d140de2b97857ad141d657f3f3118e243d8d358cce64e8276eb6",
+        "decision_fingerprint": "aac39bd8c5553f93c981d00e4adce3808da89cad30f8d9457fa75be8be3c63f6",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:35ee1db3d88dc9d4a04718d1",
         "independent_resolution_verified": false,
@@ -556,12 +556,12 @@
           "identity_occurrence:d8153de63db2513cf2be439d"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "d735a3303966b37d7c85a98478a6065dc3a7b2e138830a54e0bc12643e785aee",
+        "target_source_record_sha256": "758af04bd457992864e31371c33ebaebe4496f6bf615d897dd99580ec94757e8",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:35ee1db3d88dc9d4a04718d1",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
             "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
             "page_id": "page:01c4951a370f37b648ffd39c",
             "parent_ids": [
@@ -572,7 +572,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj29026.html"
           },
-          "sha256": "f7520b487df06f2421bd15a035a67eb614366e60474d5d9a9f8ee6d94952c3df"
+          "sha256": "f7a90551ae4dac3c7001fca41fb489d34e4f03d786f41594fa9cfd8d6817ed76"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -599,7 +599,7 @@
     "publication": {
       "feature_id": "canonical:05a182e0a5711e77a392a0ca",
       "identity_unit_id": "identity_unit:35ee1db3d88dc9d4a04718d1",
-      "integrity_decision_fingerprint": "792b513ea086d140de2b97857ad141d657f3f3118e243d8d358cce64e8276eb6",
+      "integrity_decision_fingerprint": "aac39bd8c5553f93c981d00e4adce3808da89cad30f8d9457fa75be8be3c63f6",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -800,7 +800,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
         "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
         "page_id": "page:6f281c114b45203d0be49328",
         "parent_ids": [
@@ -817,7 +817,7 @@
           "candidate:986f6de1769710c257884525"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "c057fdd91fe364a3d8eaebfde8cacdfedc34c95d27b7d562f0bb6a3bdbcb555c",
+        "decision_fingerprint": "618659b0f6c78393e954f5f25a0b1d8368449319a921c386497b1c47b259893e",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:3fb9864aa573d349bb47e47a",
         "independent_resolution_verified": false,
@@ -843,12 +843,12 @@
           "identity_occurrence:4b73680f0788e5e223537e9e"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "6e062e1ea2816a07f2f2578da1ef09700fb36d818045bddbecaaa445d3150b0c",
+        "target_source_record_sha256": "5d97fefc21a6adb1dcb88a7297e4698d7c22afae1da9538fa917bb27c8b255c6",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:3fb9864aa573d349bb47e47a",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
             "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
             "page_id": "page:6f281c114b45203d0be49328",
             "parent_ids": [
@@ -859,7 +859,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj19433.html"
           },
-          "sha256": "b295c876635e042ba1913d9be41dcbd727a9857a1beba59a740a32c899b01342"
+          "sha256": "fba0415eb52a86a339ca62015f768f35e4a1dbb29443d6bdf5f2f720d1b5d3b6"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -886,7 +886,7 @@
     "publication": {
       "feature_id": "canonical:7deab0f484fc5c3b63a0433f",
       "identity_unit_id": "identity_unit:3fb9864aa573d349bb47e47a",
-      "integrity_decision_fingerprint": "c057fdd91fe364a3d8eaebfde8cacdfedc34c95d27b7d562f0bb6a3bdbcb555c",
+      "integrity_decision_fingerprint": "618659b0f6c78393e954f5f25a0b1d8368449319a921c386497b1c47b259893e",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -1093,7 +1093,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -1110,7 +1110,7 @@
           "candidate:0dce780c05607aabfc9fe98f"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "ff99afc0488eacfa60389f062d5d20a9333af9c0d4ecfe04d7f85e07a2637e6b",
+        "decision_fingerprint": "491dea211ec220113c79470c8ca80e0d942867e059ec9211da7a10d84f3d1a61",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:48283dae8d2dab3eb1563ad4",
         "independent_resolution_verified": false,
@@ -1174,12 +1174,12 @@
           "identity_occurrence:fba528fcc09ae52e02204021"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "0189cb7f3a79b58ce290fd07fcca7af7ed4452ffcae5ca0460914794fd12aeac",
+        "target_source_record_sha256": "4cff9367a7907a5b294aa041f538db4c0e92e46690b9e235a67267073820dabc",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:48283dae8d2dab3eb1563ad4",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -1190,7 +1190,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "24814eaadadac7cce2b076e9518a0d3378b7f4f3cc9c7c623d559a3e7c5021b5"
+          "sha256": "4836c532a4b297a8c1f75b883f8e3f9c149b71575a26974642575875874fa24b"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -1227,7 +1227,7 @@
     "publication": {
       "feature_id": "canonical:fc68175900527a2b617b80ac",
       "identity_unit_id": "identity_unit:48283dae8d2dab3eb1563ad4",
-      "integrity_decision_fingerprint": "ff99afc0488eacfa60389f062d5d20a9333af9c0d4ecfe04d7f85e07a2637e6b",
+      "integrity_decision_fingerprint": "491dea211ec220113c79470c8ca80e0d942867e059ec9211da7a10d84f3d1a61",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -1619,7 +1619,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
         "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
         "page_id": "page:6f281c114b45203d0be49328",
         "parent_ids": [
@@ -1636,7 +1636,7 @@
           "candidate:e30f390ffa70226742c4a3c6"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "a088591a9f9b2b6d7698069230ba948dc11aca03c77bdc7d3426bd0a8f09fe2c",
+        "decision_fingerprint": "cba38846da5aaeea73ed56f53f626d9e610d458e690691cb5381ae39e1d528c5",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:4ca328e9ae01e5b8f8c377a9",
         "independent_resolution_verified": false,
@@ -1662,12 +1662,12 @@
           "identity_occurrence:f7b4f4d0502d7a4ffb526ca3"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "cd02cfcd1522afbc83b98024a5d0d782d938415310e9ccb48d1c24add0e617b3",
+        "target_source_record_sha256": "4de4ec1cc62e7701ef58a84048cc66efc2e41e80fa59c3ab4922b33f757ba555",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:4ca328e9ae01e5b8f8c377a9",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
             "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
             "page_id": "page:6f281c114b45203d0be49328",
             "parent_ids": [
@@ -1678,7 +1678,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj19433.html"
           },
-          "sha256": "155afa601a9d491fdecd2f5af674daa7ad8150c1a38dc94db90f5b43e5c7f687"
+          "sha256": "d32444408b06baefd1fc98d974098977f46406dc03a689c06ffc9a48978a8c1b"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -1705,7 +1705,7 @@
     "publication": {
       "feature_id": "canonical:a8b679ac22ea308ca60e51c1",
       "identity_unit_id": "identity_unit:4ca328e9ae01e5b8f8c377a9",
-      "integrity_decision_fingerprint": "a088591a9f9b2b6d7698069230ba948dc11aca03c77bdc7d3426bd0a8f09fe2c",
+      "integrity_decision_fingerprint": "cba38846da5aaeea73ed56f53f626d9e610d458e690691cb5381ae39e1d528c5",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -1937,7 +1937,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
         "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
         "page_id": "page:6f281c114b45203d0be49328",
         "parent_ids": [
@@ -1955,7 +1955,7 @@
           "candidate:a9a5a49bf626c6365d0771b4"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "1fcc529a98fd848615d68c4b85a8c50d5b2ef86c44695dec42e52904be7c9a42",
+        "decision_fingerprint": "3587f5b7c991765a1075d4f69039ee3e402a8c2b124c9253858e3f6c39ef9747",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:579b31f95fe4780ef9a1a8ac",
         "independent_resolution_verified": false,
@@ -1984,12 +1984,12 @@
           "identity_occurrence:ffc882d3678e8e8ee23e74bc"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "ccce9b9aa1716dba54e65b3058493c6844cb159b81b34b7e3e419c65d7e5ae3f",
+        "target_source_record_sha256": "814d9c66601d033cac2da210e687c7004103d4e2842e20b5d31e3a45907ca49f",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:579b31f95fe4780ef9a1a8ac",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
             "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
             "page_id": "page:6f281c114b45203d0be49328",
             "parent_ids": [
@@ -2000,7 +2000,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj19433.html"
           },
-          "sha256": "04729a7a5a22c97c1729f240ccdee4ab1af3ccae86513f670753f7bc445eaecb"
+          "sha256": "b3beed7686092bb252948e3babdfa1dee92bcc7efdae320c8a1db839d8f024ed"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -2027,7 +2027,7 @@
     "publication": {
       "feature_id": "canonical:d34ad7fcc9fa8153cb4371d4",
       "identity_unit_id": "identity_unit:579b31f95fe4780ef9a1a8ac",
-      "integrity_decision_fingerprint": "1fcc529a98fd848615d68c4b85a8c50d5b2ef86c44695dec42e52904be7c9a42",
+      "integrity_decision_fingerprint": "3587f5b7c991765a1075d4f69039ee3e402a8c2b124c9253858e3f6c39ef9747",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -2260,7 +2260,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -2277,7 +2277,7 @@
           "candidate:d8019080ad2a3376a64a7ed3"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "b45e93e8d615574a0df5e2ed28df760886242eabc280c8235a09d84c3a22e39b",
+        "decision_fingerprint": "3b5f7642a80a61c3f20939a864030574499b5943a0d733fd9a18adc1b6ee5ad6",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:5a8f994ce6379006eccc01c0",
         "independent_resolution_verified": false,
@@ -2322,12 +2322,12 @@
           "identity_occurrence:6effb75167bea91129cf78cd"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "519430e00289383defedb76b756b9a4e18f562997d0f3fd4c5c3068ed040109a",
+        "target_source_record_sha256": "c3bf24201af65456a2779d3d10ccb6516644288c832ed0fc04b41ad4468cb450",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:5a8f994ce6379006eccc01c0",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -2338,7 +2338,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "0ef56344f674a5e51ab4ed6f7155bd2e24d13e2a03c8fca46147bee889227e0b"
+          "sha256": "a8126305756e8a633a5db17b0093818fd6608f78e41e0fb3404bd29e91e19a47"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -2375,7 +2375,7 @@
     "publication": {
       "feature_id": "canonical:b84ac906616c17b6d58c5fc6",
       "identity_unit_id": "identity_unit:5a8f994ce6379006eccc01c0",
-      "integrity_decision_fingerprint": "b45e93e8d615574a0df5e2ed28df760886242eabc280c8235a09d84c3a22e39b",
+      "integrity_decision_fingerprint": "3b5f7642a80a61c3f20939a864030574499b5943a0d733fd9a18adc1b6ee5ad6",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -2720,7 +2720,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -2737,7 +2737,7 @@
           "candidate:9919e2b1c9e3ee3f77068f62"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "1b3228e1d96230eef30ab06eeadac1d27d0df2077d818db28160f6dd237d15d0",
+        "decision_fingerprint": "975fd8da59619b1bea37ee72122f9bf2cc564fc03f41ffbd20386eeec6ddf70c",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:625eb4bbbc13b43a484d227c",
         "independent_resolution_verified": false,
@@ -2782,12 +2782,12 @@
           "identity_occurrence:f2434a2924e6b685f48469ed"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "6767d74aec045093d2f3492a4cb053adbf388c1091887c0cd4683c967903181f",
+        "target_source_record_sha256": "b8c140da9a6c6921a7320225d05906a7f733408c3cf1b0c30200f1ca9be6c309",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:625eb4bbbc13b43a484d227c",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -2798,7 +2798,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "bbe3703c40c76b28bf6e9e42facfbe30c73d3dbd3d3fb7ac21e392a62b390083"
+          "sha256": "6623cb22099eb084ddb9c4511266ea5b1f03cfc270579496f519332b33565420"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -2835,7 +2835,7 @@
     "publication": {
       "feature_id": "canonical:a6a9e1fa8e3d819689d83bfe",
       "identity_unit_id": "identity_unit:625eb4bbbc13b43a484d227c",
-      "integrity_decision_fingerprint": "1b3228e1d96230eef30ab06eeadac1d27d0df2077d818db28160f6dd237d15d0",
+      "integrity_decision_fingerprint": "975fd8da59619b1bea37ee72122f9bf2cc564fc03f41ffbd20386eeec6ddf70c",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -3178,7 +3178,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
         "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
         "page_id": "page:01c4951a370f37b648ffd39c",
         "parent_ids": [
@@ -3195,7 +3195,7 @@
           "candidate:09771153aae27f16971bbb8d"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "9bfa683fcb926ef5e83130aa34644c1b25068b5d4ec70d6bb33fe7b6ae854b94",
+        "decision_fingerprint": "6436d4eebaa6cb771571764e0a0506e3ac0b467a00064988d3d6052962e56426",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:6363fc1dc62de9f2fb9ed429",
         "independent_resolution_verified": false,
@@ -3222,12 +3222,12 @@
           "identity_occurrence:d43143b2c61c68ce5dbbaf49"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "d0b1eeaf2ce3e057b816a03a311135c79adcacb2bd54afc9c8d434e81a9e6fe5",
+        "target_source_record_sha256": "fe8701ee7dcfcab31e38188ccf74d2793280bb35d80b47d09c453c1fd9d7944d",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:6363fc1dc62de9f2fb9ed429",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
             "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
             "page_id": "page:01c4951a370f37b648ffd39c",
             "parent_ids": [
@@ -3238,7 +3238,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj29026.html"
           },
-          "sha256": "7f54cafa3dea2f02885a78f33d676500f30156bd9883fc609f1f7c7fd56acda0"
+          "sha256": "8c5633e0b838252a15289e744e1a5eb69ba6f54b9cb3e55bdaca36066bc74b1d"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -3265,7 +3265,7 @@
     "publication": {
       "feature_id": "canonical:a6dc1f9022114ee283330d7a",
       "identity_unit_id": "identity_unit:6363fc1dc62de9f2fb9ed429",
-      "integrity_decision_fingerprint": "9bfa683fcb926ef5e83130aa34644c1b25068b5d4ec70d6bb33fe7b6ae854b94",
+      "integrity_decision_fingerprint": "6436d4eebaa6cb771571764e0a0506e3ac0b467a00064988d3d6052962e56426",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -3466,7 +3466,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -3483,7 +3483,7 @@
           "candidate:92e0bc38e1055a1ff48947b8"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "a6f27b45e90eac65924e40d3303ea6dedf5704bbfaacd602d177ec3d0e11e45a",
+        "decision_fingerprint": "38051da789f07f4b96f0e3ecb8dd7052ef74547ad454d6996f8ef5d495223f70",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:66e06a938550e53030767296",
         "independent_resolution_verified": false,
@@ -3547,12 +3547,12 @@
           "identity_occurrence:fd5651ec1b6325e86ad3f8ca"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "afc05adb90d2d84f98ea1da3df27edede1e042e0019bf634fd87722577a49bba",
+        "target_source_record_sha256": "9fa7ce579f9804bd2087da7a916fc562dccfa733200e2795c212df0c2d6695f5",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:66e06a938550e53030767296",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -3563,7 +3563,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "2369556883350d1abccf2a60f454103287a6975fbd4d4593d5183fe6f73311f8"
+          "sha256": "80968297b8339b958aaf6337d284180b45e686a7d368908daf6ff50f7c188ae6"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -3600,7 +3600,7 @@
     "publication": {
       "feature_id": "canonical:d795288de5a84aea42dc0ae8",
       "identity_unit_id": "identity_unit:66e06a938550e53030767296",
-      "integrity_decision_fingerprint": "a6f27b45e90eac65924e40d3303ea6dedf5704bbfaacd602d177ec3d0e11e45a",
+      "integrity_decision_fingerprint": "38051da789f07f4b96f0e3ecb8dd7052ef74547ad454d6996f8ef5d495223f70",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -3945,7 +3945,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -3962,7 +3962,7 @@
           "candidate:944038f678d2e967aec7b867"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "8dbb2aac9b99b36dbefe0e1f9eb057f5da52b26362068d67a4e17a5e8b791c41",
+        "decision_fingerprint": "f17bdf53f996443683e9e4e4175ab136304819707d0a161a7479bbbc51be6d4b",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:6fcf8776bc0ab24186e47c86",
         "independent_resolution_verified": false,
@@ -4007,12 +4007,12 @@
           "identity_occurrence:af42bbdfff89d67ef37856b7"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "c7a538649e6acfb9610412e4464feb281bc2d08afc89cc3935c6fb53c223fb81",
+        "target_source_record_sha256": "7cb20a8292e557303cb1df7031df0a069aea7e5a3dea4a1bbd361731dce775d7",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:6fcf8776bc0ab24186e47c86",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -4023,7 +4023,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "c607a362fa642a232b4b01df0878a28bb89392a43aec4d7b7a9d38ec08fe17d7"
+          "sha256": "5a50aeb324a4130034a1ad595b5160f7be7632866bfef1765f1c902c95ddc473"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -4060,7 +4060,7 @@
     "publication": {
       "feature_id": "canonical:af25827351b27db1cbf1f6ae",
       "identity_unit_id": "identity_unit:6fcf8776bc0ab24186e47c86",
-      "integrity_decision_fingerprint": "8dbb2aac9b99b36dbefe0e1f9eb057f5da52b26362068d67a4e17a5e8b791c41",
+      "integrity_decision_fingerprint": "f17bdf53f996443683e9e4e4175ab136304819707d0a161a7479bbbc51be6d4b",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -4405,7 +4405,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -4422,7 +4422,7 @@
           "candidate:a06d71c48946c4dd52a3538f"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "5710dadc2d3ce24973671129dda58744239cfff60cadc885df4b39da1f0df9c2",
+        "decision_fingerprint": "13ccf40a15e053fa18e12d2801e44877916ee94e5e7d0548b0201e52dd339460",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:996e6354e176b4749345af00",
         "independent_resolution_verified": false,
@@ -4467,12 +4467,12 @@
           "identity_occurrence:547b7075db778848469215ce"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "ba6bf7b8550c95d3dbbffe74d4961b148ad9c03b0a90b0d838e65cad7609c1f9",
+        "target_source_record_sha256": "74d5fe37d1bd0b64c407d9c3e2bd20d37fef8dc30ef8e1c0e50e0c15626a9b80",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:996e6354e176b4749345af00",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -4483,7 +4483,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "db8e1681deeb659a9b977ad9055edc251fce5baf111f11920f79dc468ebd0455"
+          "sha256": "dcb28f984382470919fae41c8fc6a58a5396b56f28b487b60f2b8550cf0660b9"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -4520,7 +4520,7 @@
     "publication": {
       "feature_id": "canonical:4ebca1e5b065501e23a1eb5b",
       "identity_unit_id": "identity_unit:996e6354e176b4749345af00",
-      "integrity_decision_fingerprint": "5710dadc2d3ce24973671129dda58744239cfff60cadc885df4b39da1f0df9c2",
+      "integrity_decision_fingerprint": "13ccf40a15e053fa18e12d2801e44877916ee94e5e7d0548b0201e52dd339460",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -4863,7 +4863,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
         "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
         "page_id": "page:01c4951a370f37b648ffd39c",
         "parent_ids": [
@@ -4880,7 +4880,7 @@
           "candidate:f958077aba82d113892d7982"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "c44d36f346d96ed813e7afcf5bcbf92500a856d2e8def8c507b869fb63a87e08",
+        "decision_fingerprint": "82b442db882c2882faacf50c3cbd19a016eb933b102057073ff6234b4b22c622",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:9a3fcbd9718749a3e15bd13f",
         "independent_resolution_verified": false,
@@ -4906,12 +4906,12 @@
           "identity_occurrence:b38980d0b25962742f4172a1"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "74d78051dd4083ab8f9436b3e3d0e4cbdec9932bd47e3fd8d07f4dec3249c3cf",
+        "target_source_record_sha256": "05b2bf739161f9a4cf9058427928c14901edfaf397169fd1d0b339fa71cd9e50",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:9a3fcbd9718749a3e15bd13f",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
             "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
             "page_id": "page:01c4951a370f37b648ffd39c",
             "parent_ids": [
@@ -4922,7 +4922,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj29026.html"
           },
-          "sha256": "4db500bd697bfecbcd9e6f3d34a509e003f1c7e5eefbcdca15b32dbbf4b07f7f"
+          "sha256": "8fc3120edc82d9bd2895d77f566f8bfbf3630346e49c5d12f5c89c86812c90db"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -4949,7 +4949,7 @@
     "publication": {
       "feature_id": "canonical:04f69a4320d2b2a74c95a3df",
       "identity_unit_id": "identity_unit:9a3fcbd9718749a3e15bd13f",
-      "integrity_decision_fingerprint": "c44d36f346d96ed813e7afcf5bcbf92500a856d2e8def8c507b869fb63a87e08",
+      "integrity_decision_fingerprint": "82b442db882c2882faacf50c3cbd19a016eb933b102057073ff6234b4b22c622",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -5158,7 +5158,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -5175,7 +5175,7 @@
           "candidate:83a9e7b078ad55a0b364f674"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "526c9fd1c9eb01721d796c415971b0d0766f4f2783753229e221f7898cf8ba5e",
+        "decision_fingerprint": "65e7137687e7673edfc8e753f6df2a1db9364da4511adcd7c97902c5c162014a",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:abc9ada442d2f4f27aa5b828",
         "independent_resolution_verified": false,
@@ -5220,12 +5220,12 @@
           "identity_occurrence:ae5d94a3a9c2543248ea226a"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "b75a44365e92823c9768077c9f4dd47eaa2b1e4acf2d95d4e12592bdd406c4ef",
+        "target_source_record_sha256": "a8c81f01fdacce9ec8d1a27a7e38106624d8f598a717f982fc8aa159b51a65d9",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:abc9ada442d2f4f27aa5b828",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -5236,7 +5236,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "2d640bf9a1863e1fa5fbc590053edbe9a829e5c6d0ee9b3e0281680a8bfc09b2"
+          "sha256": "8c704e795204d505203da457fa9c559480f770a33b279972c05a8d9ffde98109"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -5273,7 +5273,7 @@
     "publication": {
       "feature_id": "canonical:16860dcceea150db3ed0e736",
       "identity_unit_id": "identity_unit:abc9ada442d2f4f27aa5b828",
-      "integrity_decision_fingerprint": "526c9fd1c9eb01721d796c415971b0d0766f4f2783753229e221f7898cf8ba5e",
+      "integrity_decision_fingerprint": "65e7137687e7673edfc8e753f6df2a1db9364da4511adcd7c97902c5c162014a",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -5618,7 +5618,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
         "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
         "page_id": "page:39d029daf71ad33f34f9c7e9",
         "parent_ids": [
@@ -5635,7 +5635,7 @@
           "candidate:4743f40cef6812a6592df738"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "76d71db7a98c23a1ef11cc291f508ab4059c4a864ece73e4882152848f87849e",
+        "decision_fingerprint": "983c9bcb5c459bda20efb994dc638a18a7776f12fbbe894144bbb0dbbced0cb6",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:b5e48cbba81b014157a7577f",
         "independent_resolution_verified": false,
@@ -5699,12 +5699,12 @@
           "identity_occurrence:220d66fefc102eeecb7475e6"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "047b0d166b19343f777cfba73af53329f553e41e28cc275aada440ae3dae5dfb",
+        "target_source_record_sha256": "2899328a7397ea549ba75d60ceb4c126ce32d43c02f5b6dc431892b52a12072c",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:b5e48cbba81b014157a7577f",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_80e79d59e0c8d487.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_80e79d59e0c8d487.html",
             "page_hash": "593150f7b69dddeeb86b0a7188b71b6b6ba8fe97b67adc86ce17a0292d4cb72c",
             "page_id": "page:39d029daf71ad33f34f9c7e9",
             "parent_ids": [
@@ -5715,7 +5715,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj23075.html"
           },
-          "sha256": "4d2db6036a7da0fea5d261d2d72b6f92b28fe7ca5b14776793d18bfecd8ea0c4"
+          "sha256": "bc6ab8e12253eab42b5acb9d6dd9bb788c3629370f78b221b28d5b3b470c887e"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -5752,7 +5752,7 @@
     "publication": {
       "feature_id": "canonical:514b4f5464c47078db5e7f60",
       "identity_unit_id": "identity_unit:b5e48cbba81b014157a7577f",
-      "integrity_decision_fingerprint": "76d71db7a98c23a1ef11cc291f508ab4059c4a864ece73e4882152848f87849e",
+      "integrity_decision_fingerprint": "983c9bcb5c459bda20efb994dc638a18a7776f12fbbe894144bbb0dbbced0cb6",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -6095,7 +6095,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
         "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
         "page_id": "page:01c4951a370f37b648ffd39c",
         "parent_ids": [
@@ -6112,7 +6112,7 @@
           "candidate:320280cd0535eae237f511cc"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "210b891327c88f87ce551565b129e6cf6fff04291f73895ef4e48b9afa701b2f",
+        "decision_fingerprint": "758492452f2e1a72c61dd8e3a3c6feda3d122b1a4b87f3c5ab3f672292ec2d83",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:d7fe5da51ba15409d562195b",
         "independent_resolution_verified": false,
@@ -6138,12 +6138,12 @@
           "identity_occurrence:12c4ead80cc57d53a1e17dd9"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "ee84bc3849bb5edbd158034fac05ba0c8567f184095c3da1cf7d10c4a968d557",
+        "target_source_record_sha256": "4ce6fe2f665c3f1e9c1550491e95f9c30f0674ac5fce06a63ca2bb5ff55c0f5a",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:d7fe5da51ba15409d562195b",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_d9d5c4939b2b29d0.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_d9d5c4939b2b29d0.html",
             "page_hash": "34ac3ca835f6af655cfbf37b8cda05f63f90ec9ca5bb56baed1fd627e88bba6e",
             "page_id": "page:01c4951a370f37b648ffd39c",
             "parent_ids": [
@@ -6154,7 +6154,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj29026.html"
           },
-          "sha256": "fa8c54bb7962a44b981580f9fad0cfc6b98ebf3600a270b3a9e4c55905df7654"
+          "sha256": "5f85978cb123bc437884c7b9a12af31a74f4ac09d2004f812bb9786ff431fd40"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -6181,7 +6181,7 @@
     "publication": {
       "feature_id": "canonical:2effd99fb600b25e937ba4fb",
       "identity_unit_id": "identity_unit:d7fe5da51ba15409d562195b",
-      "integrity_decision_fingerprint": "210b891327c88f87ce551565b129e6cf6fff04291f73895ef4e48b9afa701b2f",
+      "integrity_decision_fingerprint": "758492452f2e1a72c61dd8e3a3c6feda3d122b1a4b87f3c5ab3f672292ec2d83",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
@@ -6388,7 +6388,7 @@
       "owner_evidence_correct": true,
       "provenance": {
         "dbms": "derby",
-        "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+        "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
         "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
         "page_id": "page:6f281c114b45203d0be49328",
         "parent_ids": [
@@ -6408,7 +6408,7 @@
           "candidate:f4beacd2a16d4182d55e2a67"
         ],
         "contract_version": "PublicationIntegrity/v1",
-        "decision_fingerprint": "0919c3eaf3ef350906f33791fa55bc3e2db5464a5865288ea1455dce42809b04",
+        "decision_fingerprint": "8f870bdbfdd7673999d98b771488b27803ee6c5f4291966a4fad5c1e32a90070",
         "grounding_establishes_subject": false,
         "identity_unit_id": "identity_unit:f05f82c8858502f461cff20f",
         "independent_resolution_verified": false,
@@ -6443,12 +6443,12 @@
           "identity_occurrence:ded4720db75b418466b1e00f"
         ],
         "target_resolution": "AI_CLASSIFIED",
-        "target_source_record_sha256": "bda6a8694c437904f67b34f9af6a8e94fecc3aceba68831d3a63e6695385aa79",
+        "target_source_record_sha256": "3594b9267e380aac187aea2c0f58807ea13c2e202fded7efca10188711f4ab06",
         "type_decision_ref": {
           "identity_unit_id": "identity_unit:f05f82c8858502f461cff20f",
           "provenance": {
             "dbms": "derby",
-            "html_path": "D:\\PyCharm 2025.1.2\\code\\FeatureCrawler\\.runtime\\runs\\derby_2653c91be7a74983ac918c8c9a4fd0b5\\scoped_discovery\\corpus\\pages\\doc_7022d1a687277ebe.html",
+            "html_path": "/home/runner/work/FeatureCralwer/FeatureCralwer/script/FeatureKnowledgeBase/.runtime/runs/derby_17200d6f64cb4070a4e16889dec056fa/scoped_discovery/corpus/pages/doc_7022d1a687277ebe.html",
             "page_hash": "b5a80ba4caeed9b9ec1b96473a714c6e0f20aef0079989827c3adc74170e1c01",
             "page_id": "page:6f281c114b45203d0be49328",
             "parent_ids": [
@@ -6459,7 +6459,7 @@
             "reason_codes": [],
             "source_url": "https://db.apache.org/derby/docs/10.17/ref/rrefsqlj19433.html"
           },
-          "sha256": "31ac016e77da492f6b82000c0b7b67aa57dbe2ea7218515ed6adb597a2f6dcac"
+          "sha256": "95c48281188bc6b6f4a869246dadc36101abf4ab74179c05e35a0bddc52074a7"
         },
         "type_dependencies_resolved": true,
         "type_dependency_block_ids": [
@@ -6488,7 +6488,7 @@
     "publication": {
       "feature_id": "canonical:d7b0bd17166d7abbca0601f8",
       "identity_unit_id": "identity_unit:f05f82c8858502f461cff20f",
-      "integrity_decision_fingerprint": "0919c3eaf3ef350906f33791fa55bc3e2db5464a5865288ea1455dce42809b04",
+      "integrity_decision_fingerprint": "8f870bdbfdd7673999d98b771488b27803ee6c5f4291966a4fad5c1e32a90070",
       "publication_integrity_state": "REVIEW",
       "published": false,
       "reason_codes": [
